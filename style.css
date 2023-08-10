@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 12vh;
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+    filter: drop-shadow(5px 3px 5px);
+}
+
+.header h3 {
+    margin-left: 120px;
+    margin-top: -65px;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    word-spacing: -20px;
+    width: fit-content;
+}
+
+.middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.details {
+    height: 50vh;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.dt-1 {
+    height: 4vh;
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgba(98, 118, 118, 0.676);
+
+}
+
+.details img {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.details .dt-1 p {
+    position: relative;
+    left: 35px;
+    top: -17px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.details #supp {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.details #supp span {
+    color: rgb(252, 134, 0);
+}
+
+.details .lab,
+a {
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    display: inline-block;
+    line-height: 40px;
+
+}
+
+.chat {
+    height: 60px;
+    width: 60px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+}
+
+.chat img {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+}
+
+.chat:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.details-2 {
+    height: 50vh;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    overflow: hidden;
+
+}
+
+.dt-1 {
+    height: 4vh;
+    background-color: rgba(98, 118, 118, 0.676);
+
+}
+
+.details-2 .icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.details-2 .dt-1 p {
+    position: relative;
+    left: 35px;
+    top: -15px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.details-2 #supp {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.details-2 #supp span {
+    color: rgb(252, 134, 0);
+}
+
+.details-2 .lab,
+a {
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    display: inline-block;
+    line-height: 40px;
+
+}
+
+.details-2 .scroll {
+    position: relative;
+    top: -2px;
+    min-height: 220px;
+    height: 343px;
+    display: flex;
+    justify-content: center;
+}
+
+.details-2 .scroll p {
+    font-size: 40px;
+}
+
+.details-2 .scroll p:nth-child(2n+1) {
+    color: red;
+}
+
+
+/* @media only screen and (max-width: 200px) {
+    .middle {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .details .lab,
+    a {
+        font-size: 20px;
+        position: relative;
+        left: 20px;
+        top: 20px;
+        display: inline-block;
+        line-height: 40px;
+
+    }
+
+    .details {
+        width: 350px;
+    }
+
+    .details-2 {
+        margin-top: 50px;
+        width: 350px;
+    }
+
+    .chat {
+        height: 50px;
+        width: 50px;
+        position: fixed;
+        bottom: 70px;
+        left: 20px;
+
+    }
+
+    .chat img {
+        height: 30px;
+        width: 30px;
+
+    }
+    .features h2{
+        color: white;
+        font-size: 25px;
+        width: fit-content;
+    
+    }
+    
+
+} */
+
+.features {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.features h4 {
+    background-color: green;
+    color: whitesmoke;
+    width: fit-content;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 1px 10px 1px;
+    font-size: 17px;
+}
+
+.features h2 {
+    color: green;
+    font-size: 20px;
+    width: fit-content;
+
+}
+
+.features dl {
+    text-align: justify;
+    font-size: 30px;
+    max-width: 1100px;
+    width: 100%;
+
+}
+
+.features dl dt {
+    color: red;
+    margin-bottom: 15px;
+    font-weight: bold;
+    width: fit-content;
+
+}
+
+.features dl dd {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    max-width: 1100px;
+    width: 100%;
+    font-size: 20px;
+
+}
+
+/* .bg {
+    background-color: #000;
+    height: 100%;
+    max-width: 1600px;
+    width: 100%;
+} */
+
+.bg {
+    background-color: black;
+    color: whitesmoke;
+    min-height: 60vh;
+    max-height: 90vh;
+    max-width: 1600px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.bg img {
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(5px 3px 5px rgb(255, 153, 0));
+
+}
+
+.bg .logo p {
+    font-size: 30px;
+    color: rgb(255, 153, 0);
+}
+
+.bg p.about {
+    font-size: 40px;
+    color: rgb(255, 153, 0);
+}
+
+.bg .contact {
+    color: rgb(255, 153, 0);
+    font-size: 25px;
+}
+
+.bg .cont a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    font-size: 20px;
+
+}
+
+.bg table {
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+.bg tr th {
+    color: rgb(255, 153, 0);
+    padding: 8px;
+}
+
+.bg tr td a {
+    padding: 18px;
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+    width: fit-content;
+}
+
+/* .footer .subs {
+    font-weight: bold;
+    color: whitesmoke;
+    max-width: 1100px;
+    width: 100%;
+
+}
+
+.footer input {
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+}
+
+.footer button {
+    background-color: rgb(255, 153, 0);
+    border-radius: 5px;
+    color: whitesmoke;
+    cursor: pointer;
+} */
